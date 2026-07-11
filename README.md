@@ -95,6 +95,9 @@ To browse the tables:
    - **Password:** *(leave blank)*
 3. Click **Connect**.
 
+   Note: the H2 console remembers the last URL you used on your machine (in `~/.h2.server.properties`), so
+   if the field shows a different value, set it to `jdbc:h2:mem:membership` once and it will be remembered.
+
 You can then run SQL against the live data, for example:
 ```sql
 SELECT * FROM SUBSCRIPTION;
